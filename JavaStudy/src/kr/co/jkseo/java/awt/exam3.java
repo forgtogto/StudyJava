@@ -170,7 +170,7 @@ class LoginPg2 extends Frame implements ActionListener {
 			System.exit(1);
 		} else if (e.getSource() == btNew) {
 			this.setVisible(false);
-			System.out.println("dddd");
+			System.out.println("회원가입");
 			loginOK = 1;
 			new LoginPg2();
 
