@@ -10,7 +10,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.StackPane?>
 
-<StackPane xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fx_lightSystem.house_lights">
+<StackPane xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fx_lightSystem.house_lights">
    <children>
       <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="432.0" prefWidth="684.0">
          <children>
@@ -93,7 +93,7 @@
             <CheckBox fx:id="ck8" layoutX="623.0" layoutY="314.0" mnemonicParsing="false" onAction="#handleChkAction" />
             <CheckBox fx:id="ck9" layoutX="623.0" layoutY="341.0" mnemonicParsing="false" onAction="#handleChkAction" />
             <CheckBox fx:id="ck10" layoutX="623.0" layoutY="367.0" mnemonicParsing="false" onAction="#handleChkAction" />
-            <Button fx:id="btback" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#handlebtbackAction" text="메인" />
+            <Button fx:id="btback" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#handlebtbackAction" text="종료" />
             <Label layoutX="628.0" layoutY="113.0" text="V ON" />
             <Button fx:id="btallon" layoutX="513.0" layoutY="78.0" mnemonicParsing="false" onAction="#handlebtonAction" text="전체점등 " />
             <Button fx:id="btalloff" layoutX="591.0" layoutY="78.0" mnemonicParsing="false" onAction="#handlebtoffAction" text="전체소등" />
